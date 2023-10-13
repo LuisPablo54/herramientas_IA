@@ -1,10 +1,13 @@
 #Ejercicio 4
-tamaño = int(input("El tamaño del vector: ")) #Determian el tamañano de la lista
 #indice = int(input("El indice es: "))
+def filas (tamno):
+    miLista = [numero for numero in range(0, tamano + 1)]
+    print(miLista)
+    suma = ((tamano**2)-tamano)/2
 
-miLista = [numero for numero in range(0, tamaño + 1)]
-print(miLista)
-suma = ((tamaño**2)-tamaño)/2
+
+    print(suma)
 
 
-print(suma)
+tamano = int(input("El tamaño del vector: ")) #Determian el tamañano de la lista
+filas(tamano)
